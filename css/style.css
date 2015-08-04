@@ -1,0 +1,385 @@
+body{
+	background-color: #1f313b;
+}
+
+.top{
+	background-image: url(../img/backtext.jpg);
+	width: 100%;
+	height: auto;
+	padding-bottom: 300px;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.container{
+	
+margin: 0px auto;
+width: auto;
+text-align: center;
+
+}
+
+.container h1{
+	font-family: 'Passion One', cursive;
+	font-size: 90px;
+	color: #1f4339;
+	text-align: center;
+	padding-top: 80px;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+#headline{
+	margin-top: 50px;
+}
+
+.container p{
+	color: #367362;
+	font-size: 24px;
+	width: auto;
+	padding-left: 20%;
+	padding-right: 20%;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.6em;
+}
+
+
+
+.actionform{
+	width: 850px;
+	height: 80px;
+	background-color: #fff;
+	margin: 0px auto;
+	margin-top: 20px;
+	border: 1px solid #12d9b3;
+}
+
+form{
+	overflow: hidden;
+	  display: block;
+}
+
+form input#email{
+	float: left;
+	height: 78px;
+	width: 400px;
+	margin: 0;
+	border: none;
+	border-right: 1px solid #c2d0d3;
+	padding-left: 20px;
+	font-size: 24px;
+	color: #a0bbc1;
+}
+
+form input#zip{
+	float: left;
+	height: 78px;
+	margin: -15px;
+	border: none;
+	position: relative;
+	padding-left: 20px;
+	margin-left: 2px;
+	font-size: 24px;
+	color: #a0bbc1;
+	width: 170px;
+	
+	
+}
+
+form input#actionbutton{
+float: left;
+height: 75px;
+margin-left: 20px;	
+background-color: #254556;
+border: none;
+padding: 0;
+margin-top: -29px;
+width: 270px;
+font-size: 24px;
+color: white;
+}
+
+
+form input#actionbutton:hover{
+
+background-color: #5f2a94;
+
+}
+
+input{
+	outline-style:none;
+	box-shadow:none;
+	border-color:transparent;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+
+
+textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"]{
+
+-webkit-box-sizing: border-box;
+
+-moz-box-sizing: border-box;
+
+box-sizing: border-box;
+
+-webkit-background-clip: padding;
+
+-moz-background-clip: padding;
+
+background-clip:padding-box;
+
+-webkit-border-radius:0;
+
+-moz-border-radius:0;
+
+-ms-border-radius:0;
+
+-o-border-radius:0;
+
+border-radius:0;
+
+-webkit-appearance:none;
+
+background-color:#fff;
+
+color:#000;
+
+outline:0;
+
+margin:0;
+
+padding:0;
+
+text-align: left;
+
+font-size:1em;
+
+height: 1em;
+
+vertical-align: middle;
+
+}
+
+
+#checkbox{
+	margin-top: 20px;
+}
+
+
+#checkbox label{
+	font-size: 24px;
+	color: #000;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 0;
+}
+
+#checkbox input{
+	width: 25px;
+	height: 25px;
+	margin-top: 5px;
+}
+
+
+
+.logos{
+	width: 910px;
+	margin: 0px auto;
+	height: auto;
+	margin-top: 20px;
+	padding-top: 5px;
+}
+
+
+.logos a.viewmore{
+	background-color: #415f71;
+	text-color:#fff;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+text-decoration: none;
+color: #fff;
+padding: 10px 25px 10px 25px;
+font-family: 'Source Sans Pro', sans-serif;
+display: block;
+margin-left: 30%;
+margin-right: 30%;
+margin-top: 20px;
+letter-spacing: 0.2em;
+}
+
+.logos a.viewmore:hover{
+	background: #30d79e;
+}
+
+#headlinetwo{
+	color: #01ffc8;
+}
+
+.highlight{
+	color: #01ffc8;
+}
+
+p.text{
+	color: #dae8f0;
+	font-size: 30px;
+	width: auto;
+	padding-left: 20%;
+	padding-right: 20%;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.6em;
+	margin-top: 50px;
+}
+
+#links{
+	width: 500px;
+	margin: 0px auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+a.website{
+	background-color: #11c56e;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 28px;
+		color: white;
+		line-height: 1.6em;
+		text-decoration: none;
+		
+		-webkit-border-radius: 50px;
+		-moz-border-radius: 50px;
+		border-radius: 50px;
+		padding: 17px 30px 17px 30px;
+	margin-top: 30px;		
+	display: block;
+}
+a.website:hover{
+	opacity: 0.8;
+}
+
+a.individual:hover{
+	opacity: 0.8;
+}
+
+
+a.individual{
+	background-color: #2693c1;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 28px;
+		color: white;
+		line-height: 1.6em;
+		text-decoration: none;
+		
+		-webkit-border-radius: 50px;
+		-moz-border-radius: 50px;
+		border-radius: 50px;
+		padding: 17px 30px 17px 30px;
+		display: block;
+		margin-top: 20px;
+}
+
+
+
+/*RESPONSIVE*/
+
+@media only screen and (min-width: 768px) {
+    .container h1{
+    	font-size: 90px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+    .container h1{
+    	font-size: 20px;
+    }
+    
+    .container p{
+    	font-size: 18px;
+    }
+    
+    .logos{
+    	width: 440px;
+    	margin: 0px auto;
+    	height: 300px;
+    	margin-top: 20px;
+    	padding-top: 5px;
+    }
+    
+    .logos a img{
+				width: 200px;
+				height: 93px;
+    }
+    
+    #headlinetwo{
+    	margin-top:220px;
+    }
+    
+    p.text{
+    	margin-top:290px;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+    .container h1{
+    	font-size: 50px;
+    }
+    
+    .container p{
+    	font-size: 24px;
+    }
+    
+    #headline{
+    	color: #01ffc8;
+    }
+    
+    .actionform{
+    display: block;
+    	width: 100%;
+    	margin: 0 5% 0 5%;
+    	height: auto;
+    	background-color: #fff;
+    	margin: 0px auto;
+    	margin-top: 20px;
+    	border: 1px solid #12d9b3;
+    }
+    
+    form input#email{
+    	float: left;
+    	height: 78px;
+    	width: 100%;
+    	margin: 0;
+    	border: none;
+    	border-bottom: 1px solid #c2d0d3;
+    	font-size: 24px;
+    }
+    
+    form input#zip{
+    	float: left;
+    	height: 78px;
+    	position: relative;
+    	width: 100%;
+    	margin-top: 0px;
+    	
+    	
+    }
+    
+    form input#actionbutton{
+    float: left;
+    pointer-events: ;
+    height: 75px;
+    width: 97%;
+    margin-top: 30px;
+    display: block;
+    margin-left: 1.5%;
+    margin-bottom: 8px;
+    
+    }
+}
+
